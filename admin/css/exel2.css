@@ -1,0 +1,142 @@
+.nav1{
+    width: 100%;
+  background: #024bf6a3;
+  overflow: auto;
+
+}
+
+.ul1{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+}
+
+.title h5{
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   justify-content: center;
+}
+.li1 {
+    float: left;
+    align-content: space-between;
+  }
+
+  .btn-est {
+    width: 120px;
+    float: right;
+    background: #44d5fe;
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    margin-top: -40px;
+    padding: 7px;
+    font-family: sans-serif;
+    border-color: #000000;
+    border-radius: 15px;
+    font-size: 16px;
+margin-right: 10px;
+  }
+
+.btn-est a{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.btn-est:hover{
+    background: #04a5fc;
+    transition: 0.3s;
+}
+
+
+.logo{
+    width: 100px;
+    display: flex;
+}
+h4{
+background-color: rgb(237, 203, 203);
+border-radius: 15px;
+color: rgb(0, 0, 0);
+display: flex;
+text-align: center;
+justify-content: center;
+
+}
+
+.row1{
+    background-color: #c6ccce;
+}
+
+.row2{
+    display: flex;
+    background-color: #5e62656a;
+    color: #0a0a0a;
+    float: left;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+
+
+.row4{
+    color: #000000;
+    margin: 5px;
+}
+
+.col1 h6{
+    color: #000000;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.table1{
+margin-bottom: 40px;
+width: 100%;
+height: auto;
+border: 1px solid;
+
+    background-color: #ffffff;
+    text-align: center;
+}
+.as{
+   color: #060606; 
+   background-color: #3942f755;
+   border: 1px solid;
+   border-color: #000000;
+}
+
+.uv{
+border:1px solid;
+    color: #000000;
+}
+.tg{
+    width: 100px;
+margin: 5px;
+    border-collapse: separate;
+    border: 1px solid;
+    border-color: #f19393;
+
+}
+
+
+
+.ejem{
+    background-color: #8483839e;
+text-align: center;
+justify-content: center;
+}
+.ejem h5{
+    color: #000000;
+    font-size: 20px;
+    font-family:serif;
+}
+.img-ejem{
+    background-color: #c6ccce;
+    width: 8W00px;
+    height: 200px;
+
+
+}

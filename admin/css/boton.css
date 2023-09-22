@@ -1,0 +1,23 @@
+
+.btn-gen{
+    background-color: rgb(105, 140, 228);
+    border-radius: 5px;
+    width: 120%;
+    height: 50px;
+    color: aliceblue;
+    margin: 5px;
+    margin-bottom: 50px;
+    border-color: rgb(0, 0, 0);
+  
+    }
+    
+    .btn-gen a {
+        color: rgb(239, 239, 239);
+    }
+    
+    .btn-gen:hover{
+        background: #db5e5e;
+        transition: 1s;
+    
+    }
+ 

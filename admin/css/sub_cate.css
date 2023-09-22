@@ -1,0 +1,49 @@
+
+
+main{
+margin-top: 10%;
+background-color: #6b666601;
+
+}
+
+.est{
+    background-color: #b6b5b500;
+   margin-left: 10px;
+   margin-right: 20px;
+}
+
+.rtx{
+
+    background-color: rgb(231, 178, 178);
+}
+
+
+.rtx{
+
+    background-color: rgba(232, 1, 1, 0);
+    color: rgb(0, 0, 0);
+}
+
+.th1{
+
+    background-color: rgb(223, 125, 125);
+    color: aliceblue;
+}
+.tds1{
+
+    background-color: rgb(79, 79, 236);
+    color: aliceblue;
+}
+.tds2{
+
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+}
+
+
+
+
+.logo{
+    margin-top: -50px;
+    width: 200px;
+}

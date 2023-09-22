@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root {
+    --login-bg:#f8f3ff;
+    --title-bg: #9089cc;
+    --button-bg: #674baf;
+    --light-pink: #e882e8;
+    --image-bg:  #eadbff ;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to top, #d36969 15%,#ced2d7 50%, #91a6f8 100%);
+}
+
+.login-container {
+    height: 43.75em;
+    width: 80em;
+    margin: 1em auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.login-info-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    background-color:#9f9fa75d;
+    backdrop-filter: blur(12px) ;
+	-webkit-backdrop-filter: blur(12px);
+}
+
+.image-container {
+    padding: 2rem;
+    width: 50%;
+    background-color:#404040dd;
+    box-sizing: border-box;
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:black;
+    padding-top: 60px;
+    
+}
+
+
+.social-login {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.social-login-element {
+    width: 12.5rem;
+    height: 3.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    border: 1px solid var(--button-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-login-element img {
+    width: 1.875rem;
+    height: 1.875rem;
+    position: relative;
+    top: 0;
+    left: -0.625rem;
+}
+
+.social-login-element:hover {
+    background-color: #fff;
+}
+
+.login-info-container > p {
+    font-size: 1.25em;
+    margin-top: 1.5em;
+}
+
+.inputs-container {
+    height: 55%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input, .btn {
+    width: 90%;
+    height: 3.125rem;
+    font-size: 1em;
+}
+
+.input {
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.input:hover {
+    border: 2px solid var(--button-bg);
+}
+
+.btn {
+    width: 80%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--button-bg);
+    cursor: pointer;
+}
+
+.inputs-container p {
+    margin: 0;
+}
+
+.span {
+    color: var(--light-pink);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .login-container {
+        width: 70%;
+        margin-top: 3rem;
+    }
+    .login-info-container {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .image-container {
+        display: none;
+    }  
+}
+
+@media screen and (max-width: 650px) {
+    .login-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .login-container {
+        height: 90%;
+    }
+
+    .social-login {
+        flex-direction: column;
+        align-items: center;
+        height: 30%;
+    }
+
+    .login-info-container > p {
+        margin: 0;
+    }
+}
+
+/*--------------------bonton whatsapp---------------------------*/
+
+.whatsapp-btn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	column-rule: #fff;
+	border: 3px solid white;
+	padding: 10px;
+	border-radius: 100px;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	box-shadow: 2px 2px 3px #999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 100;
+}
+.joinchat__tooltip{
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	top: 7px;
+	right: 60px;
+	width: auto;
+	height: 35px;
+	padding: 5px 10px 5px 5px;
+	border: none;
+	border-radius: 50px;
+	background: #fff;
+	white-space: nowrap;
+	opacity: 0;
+	transition: 0.3s ease-out 0.4s;
+	filter: drop-shadow(0 1px 4px rgba(0,0,0,0.4));
+}
+.ico{
+display: flex;
+width: 30px;
+max-height: 30px;
+
+}
+.joinchat__tooltip::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: -6px;
+	border: 8px solid transparent;
+	border-width: 9px 0 6px 8px;
+	border-left-color: #fff;
+}
+
+.bi-person-circle::before{
+	margin-right: 5px;
+	color: #9990;
+}
+.joinchat__tooltip .text{
+	color: #525252;
+	font-size: 15px;
+}
+.whatsapp-btn:hover{
+	transition: all 0.5s ease-in-out;
+	animation: bounce 1.6s infinite;
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100%{
+transform: translateY(0);
+	}
+	40%{
+		transform: translateY(-5px);
+			}
+		60%	{
+				transform: translateY(-5px);
+		}
+}
+@media(hover : hover){
+	.whatsapp-btn:hover .joinchat__tooltip{
+		opacity: 1;
+		animation: none;
+		transition: opacity 0.2s;
+	}
+}

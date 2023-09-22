@@ -1,0 +1,77 @@
+body{
+
+    background: linear-gradient(to bottom right,#87acf747 , #f7838360);
+
+    background-size:cover;
+    margin: 15px;
+
+}
+
+
+main{
+margin-top: 8.5%;
+background-color: #6b666601;
+
+}
+
+.est{
+    background-color: #b6b5b500;
+   margin-left: 10px;
+   margin-right: 20px;
+}
+
+.rtx1{
+
+font-size: 55px;
+
+}
+
+
+.rtx{
+
+    background-color: rgba(232, 1, 1, 0);
+    color: rgb(0, 0, 0);
+}
+
+.th1{
+
+    background-color: rgb(51, 51, 51);
+    color: aliceblue;
+}
+
+
+.tab1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+
+.logo{
+    margin-top: -50px;
+    width: 200px;
+}
+
+.btn-gen{
+    background-color: rgb(105, 140, 228);
+    border-radius: 5px;
+    width: 18%;
+    height: 50px;
+    color: aliceblue;
+    margin: 5px;
+    margin-bottom: 10px;
+    border-color: rgb(0, 0, 0);
+    display: flex;
+  
+    }
+    
+    .btn-gen a {
+        color: rgb(239, 239, 239);
+    }
+    
+    .btn-gen:hover{
+        background: #db5e5e;
+        transition: 1s;
+    
+    }
+ 
