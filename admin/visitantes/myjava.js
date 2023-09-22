@@ -54,10 +54,14 @@ function agregaEmpleado(){
 			$('#formulario')[0].reset();
 			$('#mensaje').addClass('bien').html('Registro completado con exito').show(200).delay(2500).hide(200);
 			$('#agrega-registros').html(registro);
+			// Redirigir a subcategoria_libro.php después de completar la operación
+			window.location.href = 'visitantes.php';
 			return false;
 			}else{
 			$('#mensaje').addClass('bien').html('Edicion completada con exito').show(200).delay(2500).hide(200);
 			$('#agrega-registros').html(registro);
+// Redirigir a subcategoria_libro.php después de completar la operación
+window.location.href = 'visitantes.php';
 			return false;
 			}
 		}
@@ -75,6 +79,8 @@ function eliminarEmpleado(id){
 		data:'id='+id,
 		success: function(registro){
 			$('#agrega-registros').html(registro);
+			// Redirigir a subcategoria_libro.php después de completar la operación
+			window.location.href = 'visitantes.php';
 			return false;
 		}
 	});
