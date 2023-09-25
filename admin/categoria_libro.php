@@ -54,7 +54,7 @@ if(isset($_SESSION['user']))
                 <strong>Buscar Categoría:</strong>
             </div>
             <div class="col-md-4">
-                <input type="text" placeholder="Buscar por Nombre" id="bs-prod" class="form-control" />
+                <input type="text" placeholder="Buscar Categoria" id="bs-prod" class="form-control" />
             </div>
             <div class="col-md-2">
                 <button id="nuevo-producto" class="btn btn-primary btn-block">Nueva Categoría</button>

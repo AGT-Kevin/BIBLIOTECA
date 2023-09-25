@@ -65,7 +65,7 @@ $subcategoria=mysqli_query($con, $consulta3);
                     <td><strong>Buscar Libro:</strong></td>
                     <td>
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Buscar por ISBN" id="bs-prod">
+                            <input type="text" class="form-control" placeholder="Buscar Libro" id="bs-prod">
                             <span class="input-group-btn">
                                 <b class="form-control"></b>
                             </span>

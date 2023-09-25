@@ -59,7 +59,7 @@ $resultado=mysqli_query($con, $consulta);
                 <strong>Buscar Subcategoría:</strong>
             </div>
             <div class="col-md-4">
-                <input type="text" placeholder="Buscar por Nombre" id="bs-prod" class="form-control" />
+                <input type="text" placeholder="Buscar Subcategoria" id="bs-prod" class="form-control" />
             </div>
             <div class="col-md-2">
                 <button id="nuevo-producto" class="btn btn-primary btn-block">Nueva Subcategoría</button>

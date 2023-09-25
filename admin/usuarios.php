@@ -53,7 +53,7 @@ if(isset($_SESSION['user']))
         <td><strong>Buscar Administrador:</strong></td>
         <td>
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Busca por Nombre" id="bs-prod">
+                <input type="text" class="form-control" placeholder="Busca Administrador" id="bs-prod">
             </div>
         </td>
         
